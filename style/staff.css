@@ -1,0 +1,71 @@
+  .staffcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center; 
+    padding: 0 20px;
+    padding-top: 40px;
+  }
+
+  .staff-card {
+    background-color: var(--box-bg-color);
+    padding: 10px;
+    text-align: center;
+    border: 3px solid transparent;
+    box-shadow: 0 0 16px 0 rgba(39, 48, 75, 0.15);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; 
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid #b87575;
+  }
+
+  @media (min-width: 992px) {
+    .staff-card {
+      width: 24%; 
+    }
+  }
+
+  .staff-card .staff-image {
+    position: relative;
+    margin-bottom: 6px;
+    margin-top: 6px;
+  }
+
+  .staff-card .staff-image img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .staff-card .staff-name {
+    font-size: 22px;
+    font-weight: 900;
+    color: #b87575;
+    text-transform: capitalize;
+    margin-top: 15px;
+    display: block;
+  }
+  
+  .staff-card .staff-role {
+    font-size: 19px;
+    color: #b87575;
+    text-transform: capitalize;
+    display: block;
+  }
+
+  .staff-card .staff-name:hover {
+    color: #b87575;
+  }
+
+  .staff-card .staff-desc {
+    font-size: 14px;
+    line-height: 1.5em;
+    color: var(--text-color);
+    padding-left:5px;
+    padding-right:5px;
+  }

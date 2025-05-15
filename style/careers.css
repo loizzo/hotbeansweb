@@ -1,0 +1,165 @@
+  .career-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+  }
+  
+  .job-listing {
+    position: relative;
+    background-color: var(--bg-color);
+    border: 1px solid #b87575;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+    transition: transform 0.3s ease-out;
+    cursor: default;
+  }
+
+  .job-listing:hover {
+    transform: scale(1.1);
+  }
+  
+  .role-indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 100%;
+    background-color: #b87575;
+  }
+  
+  .job-listing p {
+    margin: 0;
+    padding-left: 20px;
+    line-height: normal;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--text-color);
+  }
+
+  .careerp{
+    color: var(--text-color);
+    padding-left: 30%;
+    font-size: 25px;
+  }
+  
+  .location{
+    max-height: 20px;
+    padding-left: 5%;
+  }
+
+  .vacancies-wrapper {
+    position: relative; 
+    border: 2px solid #b87575;
+    padding: 60px 40px 40px 40px;
+    margin: 40px auto;
+    max-width: 1100px;
+    background-color: var(--box-bg-color);
+    border-radius: 10px;
+  }
+  
+  .careerp2 {
+    position: absolute;
+    top: -15%;
+    left: 115px;
+    background-color: var(--box-bg-color);
+    color: var(--text-color);
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #b87575;
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+/* google button i stole */
+    .button-17 {
+      align-items: center;
+      appearance: none;
+      background-color: var(--bg-color);
+      border-radius: 24px;
+      border-style: none;
+      box-shadow: 0 0 0 2px #b39292 ;
+      box-sizing: border-box;
+      color: var(--text-color);
+      cursor: pointer;
+      display: inline-flex;
+      fill: currentcolor;
+      font-family: "Google Sans",Roboto,Arial,sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      height: 48px;
+      justify-content: center;
+      letter-spacing: .25px;
+      line-height: normal;
+      max-width: 100%;
+      overflow: visible;
+      padding: 2px 24px;
+      position: relative;
+      text-align: center;
+      text-transform: none;
+      transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      width: auto;
+      will-change: transform,opacity;
+      z-index: 0;
+      border: solid 1px var(--text-color);
+    }
+
+    .button-17:hover {
+     color: var(--text-color);
+     background-color: var(--bg-color);
+
+    }
+    
+    .button-17:active {
+      box-shadow: 0 4px 4px 0 rgb(255 255 255 / 30%), 0 8px 12px 6px rgb(255 255 255 / 15%);
+      outline: none;
+    }
+    
+    .button-17:focus {
+      outline: none;
+      border: 2px solid var(--text-color);
+    }
+
+  #applyNowBtn{
+    top: -60%;
+  }
+ 
+  .team-member {
+    position: relative;
+  }
+
+  .hover-message {
+    display: none;
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    transform: translateX(0); 
+    color: var(--text-color);
+    padding: 0px 12px;
+    border-radius: 4px;
+    white-space: nowrap;
+    z-index: 2;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 12px;
+     transition: transform 0.3s ease-out;
+  }
+
+  .job-listing:hover .hover-message {
+    display: block;
+    color: var(--text-color);
+    overflow: visible;
+    z-index: 500;
+    opacity: 1;
+  }

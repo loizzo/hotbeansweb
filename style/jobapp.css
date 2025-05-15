@@ -1,0 +1,193 @@
+  .job-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 30px;
+  }
+  
+  .job-modal-content {
+    background-color: var(--box-bg-color);
+    margin: auto;
+    padding: 20px;
+    border-radius: 6px;
+    width: 90%;
+    max-width: 900px;
+    position: relative;
+    max-height: 90vh;
+    overflow-y: auto;
+    border: 0.5px solid #b39292;
+    color: #100c08;
+  }
+  
+  .job-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 28px;
+    color: var(--text-color);
+    cursor: pointer;
+  }
+  
+  #title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    color: var(--text-color);
+  }
+  
+  #description {
+    text-align: center;
+    color: #100c08;
+  }
+  
+  #form-container {
+    background-color: rgb(250, 250, 250);
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 75%;
+    max-width: 900px;
+    padding: 10px;
+    padding-top: 20px;
+    border: 5px solid #b39292;
+  }
+  
+  .labels {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+  }
+  
+  .rightTab {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+  }
+  
+  .input-field {
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+  }
+
+  .upload {
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+  }
+  
+  #wrapper {
+    text-align: center;
+  }
+
+  
+  .dropdown {
+    height: 35px;
+    width: 140px;
+    padding: 5px;
+    margin: 10px;  
+    margin-top: 15px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+  }
+  
+  .radio, .checkbox {
+    position: relative;
+    left: -43px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+  }
+  
+  @media screen and (max-width: 833px) {
+    .input-field {
+      width: 80%;
+    }
+    select {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 520px) {
+    .labels {
+      width: 100%;
+      text-align: left;
+    }
+    .rightTab {
+      width: 80%;
+      float: left;
+    }
+    .input-field {
+      width: 100%;
+    }
+    select {
+      width: 100%;
+    }
+  }
+
+   .red{
+    color:red; 
+  }
+
+  /* google button i stole */
+    .button-16 {
+      align-items: center;
+      appearance: none;
+      background-color: #100c08;
+      border-radius: 24px;
+      border-style: none;
+      box-shadow: 0 0 0 2px #b39292 ;
+      box-sizing: border-box;
+      color: white;
+      cursor: pointer;
+      display: inline-flex;
+      fill: currentcolor;
+      font-family: "Google Sans",Roboto,Arial,sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      height: 48px;
+      justify-content: center;
+      letter-spacing: .25px;
+      line-height: normal;
+      max-width: 100%;
+      overflow: visible;
+      padding: 2px 24px;
+      position: relative;
+      text-align: center;
+      text-transform: none;
+      transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      width: auto;
+      will-change: transform,opacity;
+      z-index: 0;
+    }
+
+    .button-16:hover {
+      background: #b87575;
+      color: white;
+    }
+    
+    .button-16:active {
+      box-shadow: 0 4px 4px 0 rgb(0 0 0 / 30%), 0 8px 12px 6px rgb(0 0 0 / 15%);
+      outline: none;
+    }
+    
+    .button-16:focus {
+      outline: none;
+      border: 2px solid black;
+    }

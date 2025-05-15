@@ -1,0 +1,32 @@
+  .about-me-section {
+    padding: 150px 20px 40px; 
+    padding-top: 140px;
+  }
+
+  .about-card {
+    position: sticky;
+    top: 100px;
+    background-color: var(--box-bg-color);
+    color: var(--text-color);
+    padding: 40px;
+    height: 200px;
+    margin: -120px auto 140px auto; 
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    font-family: Arial, sans-serif;
+    z-index: 10; 
+    border: 0.5px solid #b87575;
+  }
+
+  .aboutimg{
+    max-height: 150px;
+    bottom: 30px;
+  }
+
+  .aboutalign{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+}
