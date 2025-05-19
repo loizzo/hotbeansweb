@@ -45,7 +45,7 @@
   .staff-card .staff-name {
     font-size: 22px;
     font-weight: 900;
-    color: #b87575;
+    color: var(--heading-color);
     text-transform: capitalize;
     margin-top: 15px;
     display: block;
@@ -53,7 +53,7 @@
   
   .staff-card .staff-role {
     font-size: 19px;
-    color: #b39292;
+    color: var(--sub-heading-color);
     text-transform: capitalize;
     display: block;
   }

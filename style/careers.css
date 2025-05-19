@@ -62,7 +62,7 @@
   top: -15%;
   left: 115px;
   background-color: var(--box-bg-color);
-  color: #b87575;
+  color: var(--heading-color);
   font-size: 25px;
   font-weight: bold;
   padding: 10px 20px;

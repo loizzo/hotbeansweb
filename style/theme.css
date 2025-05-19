@@ -9,6 +9,8 @@
     --accent-color: #FFA07A;
     --shadow-color-1: rgba(255, 160, 122, 0.3);
     --shadow-color-2: rgba(255, 160, 122, 0.15);
+    --heading-color: #C48D8D;
+    --sub-heading-color: #C0A5A5;
     }
 
     :root[data-theme='light'] {
@@ -22,6 +24,8 @@
     --accent-color: #FF6F61;
     --shadow-color-1: rgba(255, 111, 97, 0.3);
     --shadow-color-2: rgba(255, 111, 97, 0.15);
+    --heading-color: #6F4444;
+    --sub-heading-color: #735963;
     }
 
     @media (prefers-color-scheme: light) {
@@ -36,6 +40,8 @@
         --accent-color: #FF6F61;
         --shadow-color-1: rgba(255, 111, 97, 0.3);
         --shadow-color-2: rgba(255, 111, 97, 0.15);
+        --heading-color: #6F4444;
+        --sub-heading-color: #735963;
     }
     }
 

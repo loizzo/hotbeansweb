@@ -53,7 +53,7 @@
   font-weight: bold;
   border-bottom: 2px solid var(--accent-color);
   padding: 10px 0;
-  color: #b87575;
+  color: var(--heading-color);
 }
 
 .course-description {

@@ -19,7 +19,7 @@
 }
 
 .about-head{
-  color: #b87575;
+  color: var(--heading-color);
 }
 
 .aboutimg {
