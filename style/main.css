@@ -52,11 +52,14 @@
     height: 440px;
   }
 
-    .headingtitle{
-    font-size: 32px;
+  .headingtitle{
+    font-size: 35px;
+    font-family: 'Antic', sans-serif;
+    color: #D98C8C;
+  }
+
+  .red{
+    color:red; 
   }
     
-  .headingtitle2{
-    font-size: 32px;
-  }
 

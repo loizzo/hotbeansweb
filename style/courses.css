@@ -16,7 +16,7 @@
   height: 230px;
   text-align: center;
   align-items: center;
-  border: 2px solid #b87575;
+  border: 2px solid var(--accent-color);
   color: var(--text-color);
   transition: transform 0.3s ease-out;
   cursor: pointer; 
@@ -38,8 +38,9 @@
 .course-title {
   font-size: 18px;
   font-weight: bold;
-  border-bottom: 2px solid #b87575;
+  border-bottom: 2px solid var(--accent-color);
   padding: 10px 0;
+  color: #b87575;
 }
 
 .course-description {

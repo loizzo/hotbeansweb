@@ -15,7 +15,11 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   font-family: Arial, sans-serif;
   z-index: 10;
-  border: 0.5px solid #b87575;
+  border: 0.5px solid var(--accent-color);
+}
+
+.about-head{
+  color: #b87575;
 }
 
 .aboutimg {
@@ -66,3 +70,7 @@
     max-height: 100px;
   }
 }
+
+  .font{
+    font-family: 'Antic', sans-serif;
+  }

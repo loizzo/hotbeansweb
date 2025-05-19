@@ -20,7 +20,7 @@
     width: 100%; 
     box-sizing: border-box;
     text-align: center;
-    border: 2px solid #b87575;
+    border: 2px solid var(--accent-color);
   }
 
   @media (min-width: 992px) {
@@ -53,13 +53,9 @@
   
   .staff-card .staff-role {
     font-size: 19px;
-    color: #b87575;
+    color: #b39292;
     text-transform: capitalize;
     display: block;
-  }
-
-  .staff-card .staff-name:hover {
-    color: #b87575;
   }
 
   .staff-card .staff-desc {
