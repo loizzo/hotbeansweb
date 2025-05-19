@@ -22,4 +22,12 @@ document.addEventListener("DOMContentLoaded", function () {
         modal.style.display = "none";
       }
     });
+
+    // Escape key closes modal
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        modal.style.display = "none";
+      }
+   });
   });
+

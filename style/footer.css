@@ -37,11 +37,11 @@
     color: #b39292;
   }
 
-  .footer-right {
+  .footer-align-right {
     text-align: right;
   }
 
-  .footer-right p {
+  .footer-align-right p {
     margin: 0;
     font-size: 14px;
   }
