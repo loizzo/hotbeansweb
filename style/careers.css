@@ -155,6 +155,18 @@
   opacity: 1;
 }
 
+@media screen and (max-width: 955px) {
+  .career-bottom {
+    margin-bottom: 15px !important;
+    padding-bottom: 15px !important;
+  }
+  
+  .vacancies-wrapper{
+    padding-top: 3px !important;
+    margin-top: 30px !important;
+  }
+  }
+
 @media (max-width: 768px) {
   .career-grid {
     grid-template-columns: 1fr;
@@ -163,13 +175,6 @@
     padding: 0 10px;
   }
  
-  @media screen and (max-width: 955px) {
-  .career-bottom {
-    margin-bottom: 15px !important;
-    padding-bottom: 15px !important;
-  }
-  }
-
   .careerp {
     padding-left: 10%;
     font-size: 20px;
