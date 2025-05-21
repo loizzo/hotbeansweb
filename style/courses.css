@@ -68,3 +68,11 @@
   left: 50%;
   transform: translateX(-50%);
 }
+
+  @media screen and (max-width: 770px){
+  .course-card{
+    justify-content: center;
+    align-items: center;     
+    margin: auto;
+  }
+}

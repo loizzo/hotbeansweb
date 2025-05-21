@@ -18,7 +18,7 @@
 }
 
 .job-listing:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .role-indicator {
@@ -163,11 +163,10 @@
     padding: 0 10px;
   }
  
-  @media (max-width: 768px) {
-  .hover-message {
-    top: auto;
-    font-size: 0.6rem;
-    margin-top: 3px;
+  @media screen and (max-width: 955px) {
+  .career-bottom {
+    margin-bottom: 15px !important;
+    padding-bottom: 15px !important;
   }
   }
 
