@@ -34,7 +34,7 @@
     cursor: pointer;
   }
   
-  #title {
+  #job-modal-title {
     text-transform: uppercase;
     text-align: center;
     font-size: 30px;
@@ -42,7 +42,7 @@
     font-family: 'Antic', sans-serif;
   }
   
-  #description {
+  #job-modal-description {
     text-align: center;
     color: #100c08;
   }
