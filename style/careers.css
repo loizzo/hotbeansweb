@@ -162,6 +162,14 @@
     gap: 20px;
     padding: 0 10px;
   }
+ 
+  @media (max-width: 768px) {
+  .hover-message {
+    top: auto;
+    font-size: 0.6rem;
+    margin-top: 3px;
+  }
+  }
 
   .careerp {
     padding-left: 10%;
@@ -175,7 +183,7 @@
     display: block;
     text-align: center;
   }
-
+  
   .vacancies-wrapper {
     padding: 40px 20px;
     margin: 20px 10px;
