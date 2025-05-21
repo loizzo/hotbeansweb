@@ -20,6 +20,8 @@
 
 .about-head{
   color: var(--heading-color);
+  font-size: 1.5em;
+  margin-top: 0;
 }
 
 .aboutimg {
