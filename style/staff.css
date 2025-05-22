@@ -1,4 +1,4 @@
-  .staffcontainer {
+  .staff-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px; 

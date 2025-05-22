@@ -1,4 +1,4 @@
-.career-grid {
+.vacancies-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 35px;
@@ -7,7 +7,7 @@
   color: var(--text-color);
 }
 
-.job-listing {
+.vacancy-job-listing {
   position: relative;
   background-color: var(--bg-color);
   border: 1px solid #b87575;
@@ -17,11 +17,11 @@
   cursor: default;
 }
 
-.job-listing:hover {
+.vacancy-job-listing:hover {
   transform: scale(1.2);
 }
 
-.role-indicator {
+.vacancies-role {
   position: absolute;
   top: 0;
   left: 0;
@@ -31,7 +31,7 @@
   background-color: #b87575;
 }
 
-.job-listing p {
+.vacancy-job-listing p {
   margin: 0;
   padding-left: 20px;
   line-height: normal;
@@ -42,7 +42,7 @@
   color: var(--text-color);
 }
 
-.location {
+.vacancies-location {
   max-height: 20px;
   padding-left: 5%;
 }
@@ -52,12 +52,12 @@
   border: 2px solid var(--accent-color);
   padding: 6px 40px 40px 40px;
   margin: 40px auto;
-  max-width: 1100px;
+  max-width: 1000px;
   background-color: var(--box-bg-color);
   border-radius: 10px;
 }
 
-.career-p {
+.vacancies-p {
   /* position: absolute;
   top: -15%;
   left: 115px; */
@@ -72,64 +72,12 @@
   border-top-right-radius: 10px; */
 }
 
-.button-17 {
-  align-items: center;
-  appearance: none;
-  background-color: var(--bg-color);
-  border-radius: 24px;
-  border-style: none;
-  box-shadow: 0 0 0 2px var(--accent-color);
-  box-sizing: border-box;
-  color: var(--text-color);
-  cursor: pointer;
-  display: inline-flex;
-  fill: currentcolor;
-  font-family: "Google Sans",Roboto,Arial,sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  height: 48px;
-  justify-content: center;
-  letter-spacing: .25px;
-  line-height: normal;
-  max-width: 100%;
-  overflow: visible;
-  padding: 2px 24px;
-  position: relative;
-  text-align: center;
-  text-transform: none;
-  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: auto;
-  will-change: transform,opacity;
-  z-index: 0;
-  border: solid 1px var(--accent-color);
-}
 
-.button-17:hover {
-  background-color: var(--bg-color);
-}
-
-.button-17:active {
-  box-shadow: 0 4px 4px 0 var(--shadow-color-1), 0 8px 12px 6px var(--shadow-color-2);
-  outline: none;
-}
-
-.button-17:focus {
-  outline: none;
-  border: 2px solid var(--accent-color);
-}
-
-#applyNowBtn {
+#vacancies-btn {
   top: -60%;
 }
 
-.team-member {
-  position: relative;
-}
-
-.hover-message {
+.vacancies-hover-message {
   display: none;
   position: absolute;
   bottom: 40px;
@@ -147,7 +95,7 @@
   transition: transform 0.3s ease-out;
 }
 
-.job-listing:hover .hover-message {
+.vacancy-job-listing:hover .vacancies-hover-message {
   display: block;
   color: var(--text-color);
   overflow: visible;
@@ -156,50 +104,37 @@
 }
 
 @media screen and (max-width: 955px) {
-  .career-bottom {
+  .vacancies-bottom {
     margin-bottom: 15px !important;
     padding-bottom: 15px !important;
   }
   
   .vacancies-wrapper{
-    padding-top: 3px !important;
+    padding-top: 5px !important;
     margin-top: 30px !important;
   }
   }
 
 @media (max-width: 768px) {
-  .career-grid {
+  .vacancies-grid {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     gap: 20px;
     padding: 0 10px;
   }
- 
-  .careerp {
-    padding-left: 10%;
-    font-size: 20px;
-    text-align: center;
-  }
-
-  .careerp2 {
-    position: static;
-    margin: 20px auto 0 auto;
-    display: block;
-    text-align: center;
-  }
   
-  .job-listing p {
+  .vacancy-job-listing p {
     padding-left: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 1rem;
   }
 
-  .location {
+  .vacancies-location {
     padding-left: 15px;
   }
 
-  #applyNowBtn {
+  #vacancies-btn {
     position: static;
     margin: 20px auto;
     display: block;
@@ -207,11 +142,7 @@
 }
 
 @media (max-width: 480px) {
-  .careerp, .careerp2 {
-    font-size: 18px;
-  }
-
-  .job-listing p {
+  .vacancy-job-listing p {
     font-size: 0.95rem;
   }
 

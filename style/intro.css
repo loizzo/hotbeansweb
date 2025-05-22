@@ -27,3 +27,7 @@
     object-fit: cover; 
     display: block;
   }
+
+  #intro-title{
+    font-size:24px;
+  }

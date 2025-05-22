@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
   // Collecting The Goods
     const modal = document.getElementById("jobModal");
-    const openBtn = document.getElementById("applyNowBtn");
+    const openBtn = document.getElementById("vacancies-btn");
     const closeBtn = document.getElementById("jobModalClose");
 
     // Open Form
